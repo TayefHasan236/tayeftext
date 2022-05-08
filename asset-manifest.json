@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tayeftext/static/css/main.073c9b0a.css",
+    "main.js": "/tayeftext/static/js/main.c814baa6.js",
+    "static/js/787.da2db0ab.chunk.js": "/tayeftext/static/js/787.da2db0ab.chunk.js",
+    "index.html": "/tayeftext/index.html",
+    "main.073c9b0a.css.map": "/tayeftext/static/css/main.073c9b0a.css.map",
+    "main.c814baa6.js.map": "/tayeftext/static/js/main.c814baa6.js.map",
+    "787.da2db0ab.chunk.js.map": "/tayeftext/static/js/787.da2db0ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.c814baa6.js"
+  ]
+}
