@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Textfrom from './components/Textfrom';
-// import About from './components/About';
+import About from './components/About';
 import Alert from './components/Alert';
 // import {
 //   BrowserRouter as  Router, Route, Routes
@@ -15,14 +15,14 @@ function App() {
       setSwitchText('Enable Light Mode');
       document.body.style.backgroundColor = '#06113C';
       showAlert('Dark Mode Has Been Enabled','success');
-      document.title = 'TextUtils - Dark Mode';
+      // document.title = 'TextUtils - Dark Mode';
     }
     else{
       setMode('light');
       setSwitchText('Enable Dark Mode');
       document.body.style.backgroundColor = 'white';
       showAlert('Light Mode Has Been Enabled','success');
-      document.title = 'TextUtils - Light Mode';
+      // document.title = 'TextUtils - Light Mode';
     }
   }
 
@@ -54,7 +54,8 @@ function App() {
           {/* <Routes> */}
             {/* <Route exact path="/about" element = {<About />} /> */}
             {/* <Route exact path="/" element = { */}
-            <Textfrom heading = 'Enter The Text To analysis' mode = {mode} showAlert = {showAlert}/>
+            <Textfrom heading = 'Try TextUtils - Word counter ,  Character counter , Uppercase to Lowercse , Lowercase to Uppercase , Remove extra spaces' mode = {mode} showAlert = {showAlert}/>
+            <About mode = {mode}/>
              {/* }/> */}
           {/* </Routes> */}
         </div>
